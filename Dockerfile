@@ -1,5 +1,5 @@
 # Step 1: Build the React application
-FROM node:latest as build
+FROM node:16 as build
 WORKDIR /app
 COPY package.json ./
 COPY package-lock.json ./

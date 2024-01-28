@@ -1,2 +1,2 @@
 # react-portfolio
-React website hosted on docker/aws 
+React website built with docker and hosted on AWS ECS fargate - utilizing terraform

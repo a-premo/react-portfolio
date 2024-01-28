@@ -20,13 +20,9 @@ jobs:
 
       - name: Install Dependencies
         run: npm install
-        env:
-          NODE_OPTIONS: --openssl-legacy-provider
 
       - name: Build
         run: npm run build
-        env:
-          NODE_OPTIONS: --openssl-legacy-provider
 
       - name: Deploy to S3
         uses: jakejarvis/s3-sync-action@master

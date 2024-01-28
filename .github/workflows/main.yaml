@@ -3,27 +3,38 @@ name: Deploy to S3
 on:
   push:
     branches:
-      - main 
+      - main
 
 jobs:
-  deploy:
+  build-and-deploy:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v2
+      - name: Checkout Repository
+        uses: actions/checkout@v2
 
-    - name: Build project # If you have build steps
-      run: |
-        npm install
-        npm run build 
-        
-    - name: Deploy to S3
-      uses: jakejarvis/s3-sync-action@master
-      with:
-        args: --follow-symlinks --delete
-      env:
-        AWS_S3_BUCKET: alexanderpremo.com  
-        AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
-        AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-        AWS_REGION: 'us-east-1'  
-        SOURCE_DIR: './build'  # Change to your build directory if needed
+      - name: Use Node.js 16.x
+        uses: actions/setup-node@v2
+        with:
+          node-version: '16.x'
+
+      - name: Install Dependencies
+        run: npm install
+        env:
+          NODE_OPTIONS: --openssl-legacy-provider
+
+      - name: Build
+        run: npm run build
+        env:
+          NODE_OPTIONS: --openssl-legacy-provider
+
+      - name: Deploy to S3
+        uses: jakejarvis/s3-sync-action@master
+        with:
+          args: --follow-symlinks --delete
+        env:
+          AWS_S3_BUCKET: ${{ secrets.AWS_S3_BUCKET }}
+          AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          AWS_REGION: 'us-east-1'  
+          SOURCE_DIR: './build'  # Assuming the build directory is where your build artifacts are located

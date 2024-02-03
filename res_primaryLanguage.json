@@ -1,7 +1,7 @@
 {
     "basic_info": {
       "description_header": "Hi",
-      "description": "👋 I'm Alexander Premo. Fictional person for preview purposes :) I'm working with newest front-end frameworks like Angular, React and Vue. What you are seeing now is portfolio template from Dorota1997. If you like this portfolio template, make sure to ⭐ the repository to make it more recognizable for other users. Thank you 💜",
+      "description": "👋 I'm Alexander Premo. With a passion for cloud security and a dedication to enhancing system performance and scalability, I work as a DevOps Engineer at Easton Consulting Technologies, a rapidly growing fintech company that provides innovative solutions for the prop firm trading industry. As a 3x AWS Certified professional, I leverage AWS cloud technologies to deploy and manage secure and resilient infrastructures that meet the highest standards of data protection and compliance.",
       "section_name": {
         "about": "About me",
         "projects": "Projects",
@@ -81,22 +81,20 @@
     ],
     "experience": [
       {
-        "company": "DefOpenSource",
-        "title": "Front-End Developer",
-        "years": "10.2019 - present",
+        "company": "Easton Consulting Technologies",
+        "title": "DevOps Engineer",
+        "years": "12.2022 - present",
         "mainTech": [
-          "Angular 8/9/10"
+          "AWS"
         ],
         "technologies": [
-          "REST API",
-          "RxJS",
-          "JavaScript",
-          "Bootstrap",
-          "MDBootstrap",
-          "EF Core",
-          ".NET Core",
-          "SignalR",
-          "Angular Material"
+          "Linux",
+          "Kubernetes",
+          "IAM",
+          "Okta",
+          "Helm Charts",
+          "Github Actions",
+          "ArgoCD"
         ]
       },
       {

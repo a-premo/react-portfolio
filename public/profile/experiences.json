@@ -5,8 +5,7 @@
             "subtitle": "Easton Consulting Technologies",
             "workType": "Full-time",
             "workDescription": [
-                "Integrated **2** new product.",
-                "Worked on adding **def** to **bcd**. Improved speed by 50%."
+               
             ],
             "dateText": "12/2022 – Present"
         },
@@ -15,7 +14,7 @@
             "subtitle": "XYZ Ltd",
             "workType": "Full-time",
             "workDescription": [
-                "Worked on abc."
+                "Optimized employee access to various applications by implementing single sign-on solutions via Azure Active Directory, minimizing password complexity and bolstering organizational data security through streamlined authentication processes."
             ],
             "dateText": "10/2022 – 12/2022"
         },
@@ -24,9 +23,18 @@
             "subtitle": "SunRun",
             "workType": "Full-time",
             "workDescription": [
-                "Developed the official apps for the startup for both Android and iOS using hybrid framework."
+                "Configured and maintained Okta SSO integrations, managing access for 1000+ users across diverse applications, while adhering to security policies and data protection."
             ],
             "dateText": "05/2022 – 10/2022"
+        },
+        {
+            "title": "IT Field Engineer",
+            "subtitle": "Regeneron",
+            "workType": "Full-time",
+            "workDescription": [
+                "Achieved above average closure rate of client issues by leveraging understanding of key computer diagnostic tools within IT e.g., Bash, File Systems and Drivers to automate standard customer diagnostic packages."
+            ],
+            "dateText": "11/2021 – 05/2022"
         }
     ]
 }

@@ -5,17 +5,10 @@
             "title": "Languages & Databases",
             "items" : [
      
-                {
-                    "icon": "images/skills/java.png",
-                    "title": "Java"
-                },
+
                 {
                     "icon": "images/skills/php.png",
                     "title": "PHP"
-                },
-                {
-                    "icon": "images/skills/js.png",
-                    "title": "JavaScript"
                 },
                 {
                     "icon": "images/skills/python.png",
@@ -47,8 +40,12 @@
             "title" : "Tools & Platforms",
             "items": [
                 {
-                    "icon": "images/skills/android-studio.png",
-                    "title": "Android Studio"
+                    "icon": "images/skills/cloudflare.png",
+                    "title": "Cloudflare"
+                },
+                {
+                    "icon": "images/skills/newrelic.png",
+                    "title": "NewRelic"
                 },
                 {
                     "icon": "images/skills/git.png",

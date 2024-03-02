@@ -21,27 +21,17 @@
             ]
         },
         {
-            "image" : "images/projects/caaring-poster.png",
-            "title": "Caaring -  Cab Share App",
-            "bodyText": "- A Cab Sharing web app made using **Django** for **VIT** Students. People can create a new cab or request to join an existing cab.\n - Added User authentication and password reset using **SendGrid**.\n - Deployed on **heroku** using **gunicorn**.",
-            "links": [
-                {
-                    "text": "GitHub",
-                    "href": "https://github.com/mayankagarwal09/Caaring"
-                },
-                {
-                    "text": "Live",
-                    "href": "http://caaring.herokuapp.com"
-                }
-            ],
+            "image" : "images/projects/aws-secure-architecture.png",
+            "title": "AWS Secure Architecture",
+            "bodyText": "In this project, I architected a secure, multi-tiered AWS environment, aligning with AWS security best practices to manage traffic flow — routing inbound through AWS WAF and outbound via AWS Network Firewall, ensuring a secure, scalable production setup.",
             "tags" : [
-                "Python",
-                "Django",
-                "BootStrap",
-                "SendGrid",
-                "Heroku",
-                "Gunicorn",
-                "VIT"
+                "AWS",
+                "WAF",
+                "Network Firewall",
+                "VPC",
+                "Route Tables",
+                "Nat Gateway",
+                "ALB"
             ]
         }
     ]

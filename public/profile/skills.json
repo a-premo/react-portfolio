@@ -7,8 +7,8 @@
      
 
                 {
-                    "icon": "images/skills/php.png",
-                    "title": "PHP"
+                    "icon": "images/skills/terraform.png",
+                    "title": "Terraform"
                 },
                 {
                     "icon": "images/skills/python.png",
@@ -23,12 +23,12 @@
             "title": "Frameworks & Technologies",
             "items" : [
                 {
-                    "icon": "images/skills/android_new.png",
-                    "title": "Android"
+                    "icon": "images/skills/aws.png",
+                    "title": "AWS"
                 },
                 {
-                    "icon": "images/skills/react.png",
-                    "title": "React"
+                    "icon": "images/skills/kubernetes.png",
+                    "title": "Kubenetes"
                 },
                 {
                     "icon": "images/skills/nodejs.png",
@@ -54,6 +54,10 @@
                 {
                     "icon": "images/skills/docker.png",
                     "title": "Docker"
+                },
+                {
+                    "icon": "images/skills/argo.png",
+                    "title": "ArgoCD"
                 }
             ]
     }
